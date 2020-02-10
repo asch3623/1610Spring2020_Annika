@@ -1,18 +1,19 @@
 ﻿using UnityEngine;
-using UnityEngine.Experimental.UIElements.StyleEnums;
+
+[RequireComponent(typeof(CharacterController))]
 
 public class CubeMove : MonoBehaviour
 {
-    public CharacterController controller;
+    private CharacterController controller;
     private Vector3 positionDirection;
     public float speed = 6f;
     public float gravity = 3f;
     public float jumpForce = 30f;
     public int jumpCountMax = 2;
-    public static double jumpCount;
+    public int jumpCount;
     void Start()
     {
-        
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
