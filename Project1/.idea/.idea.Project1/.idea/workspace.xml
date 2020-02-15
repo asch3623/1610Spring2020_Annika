@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,6 +38,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +106,7 @@
       <workItem from="1581354878754" duration="3472000" />
       <workItem from="1581527851025" duration="3526000" />
       <workItem from="1581796282868" duration="2445000" />
+      <workItem from="1581799834225" duration="562000" />
     </task>
     <servers />
   </component>
