@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Camera))]
@@ -14,7 +15,8 @@ public class NewClass : MonoBehaviour
     public int intNum;
     public float floatNum;
     public GameObject gameObj;
-    public bool destroyCheck = true;
+    public bool destroyCheck;
+    public Transform objPos;
 
     public PrimitiveType Sphere;
 
@@ -31,10 +33,10 @@ public class NewClass : MonoBehaviour
 
     void DestroyObject()
     {
-        
         Destroy(GameObject.FindGameObjectWithTag("Player"));
     }
-    // Update is called once per frame
+
+
     private void Update()
     {
         //code from Charger Games Unity youtube video
@@ -48,7 +50,7 @@ public class NewClass : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && !destroyCheck)
         {
             print("R is pressed");
-            gameObj = GameObject.CreatePrimitive(Sphere);
+            Instantiate(gameObj, objPos.position, objPos.rotation);
             destroyCheck = true;
             gameObj.tag = "Player";
         }
