@@ -17,10 +17,12 @@ public class TriggerEvents : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        triggerStayEvent.Invoke();
         print("cube is in position");
     }
     private void OnTriggerExit(Collider other)
     {
+        triggerExitEvent.Invoke();
         print("you left");
     }
 }
