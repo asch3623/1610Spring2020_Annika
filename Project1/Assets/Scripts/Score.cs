@@ -1,13 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Text))]
 public class Score : MonoBehaviour
 {
-    public Transform player;
-    public Text scoreText;
+    
+    private Text scoreText;
+    public IntData score;
 
+    void Start()
+    {
+        scoreText = GetComponent<Text>();
+    }
     void Update()
     {
-        scoreText.text = player.position.z.ToString("0");
+        scoreText.text = score.value.ToString();
     }
 }

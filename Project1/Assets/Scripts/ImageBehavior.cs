@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
 public class ImageBehavior : MonoBehaviour
 {
 private Image newImage;
+public FloatData dataObj;
     void Start()
     {
         newImage = GetComponent<Image>();
@@ -13,6 +15,6 @@ private Image newImage;
     
     void Update()
     {
-        
+        newImage.fillAmount = dataObj.value;
     }
 }
