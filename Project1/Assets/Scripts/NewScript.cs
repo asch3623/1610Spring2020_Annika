@@ -18,6 +18,7 @@ public class NewScript : MonoBehaviour
     
     void Start()
     {
+        
         thisBody = GetComponent<Rigidbody>();
         myCamera = GetComponent<Camera>();
         print(character);

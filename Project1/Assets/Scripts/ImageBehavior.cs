@@ -12,7 +12,7 @@ public FloatData dataObj;
         newImage = GetComponent<Image>();
 
     }
-    
+
     void Update()
     {
         newImage.fillAmount = dataObj.value;

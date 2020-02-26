@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="CameraRTS.cs" t="Include" />
           <e p="CubeMove.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
