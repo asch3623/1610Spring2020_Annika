@@ -5,15 +5,16 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     // code from Brackeys tutorial on youtube
-    public Transform player;
+    public Transform target;
+    public float smoothSpeed = .125f;
     public Vector3 displace;
+    public Vector3 velocity = Vector3.zero;
 
-    void start()
+    void FixedUpdate()
     {
-        displace = transform.position - player.position;
-    }
-    void Update()
-    {
-        transform.position = player.position + displace;
+    Vector3 mainPosition = target.position + displace;
+    Vector3 smoothPosition = Vector3.SmoothDamp(target.position, mainPosition, ref velocity, smoothSpeed );
+    transform.position = smoothPosition;
+    transform.LookAt(target);
     }
 }
