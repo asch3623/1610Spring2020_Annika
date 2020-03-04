@@ -8,12 +8,10 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public float smoothSpeed = .125f;
     public Vector3 displace;
-    public Vector3 velocity = Vector3.zero;
+
 
     void LateUpdate()
     {
-    Vector3 mainPosition = target.position + displace;
-    Vector3 smoothPosition = Vector3.SmoothDamp(target.position, mainPosition, ref velocity, smoothSpeed );
-    transform.position = smoothPosition;
+   transform.position = target.position + displace * Time.deltaTime;
     }
 }
