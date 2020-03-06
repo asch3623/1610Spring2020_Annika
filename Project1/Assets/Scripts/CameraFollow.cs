@@ -10,8 +10,8 @@ public class CameraFollow : MonoBehaviour
     public Vector3 displace;
 
 
-    void LateUpdate()
+    void FixedUpdate()
     {
-   transform.position = target.position + displace * Time.deltaTime;
+   transform.position = target.position + (displace* smoothSpeed * Time.deltaTime);
     }
 }
