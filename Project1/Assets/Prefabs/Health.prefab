@@ -1,7 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2978679786215554253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 0}
+  m_Layer: 0
+  m_Name: Health
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1001 &5506971459268172101
-PrefabInstance:
+Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -88,10 +103,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2978679786215554253}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dc3a01c97ef1f5248a501240a24ba767, type: 3}
---- !u!1 &2978679786215554253 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7294375809054631304, guid: dc3a01c97ef1f5248a501240a24ba767,
-    type: 3}
-  m_PrefabInstance: {fileID: 5506971459268172101}
-  m_PrefabAsset: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 0}
+  m_IsPrefabParent: 0
