@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7346866a9fc71478f68c93dca5fa0c, type: 3}
+  m_Name: GreenCircle
+  m_EditorClassIdentifier: 
+  powerLevel: 100
+  collectableColor: {r: 0.504717, g: 1, b: 0.5079216, a: 1}
+  collectableSprite: {fileID: 21300000, guid: 30ed985c1348f4b41a57db6be3b084b9, type: 3}
