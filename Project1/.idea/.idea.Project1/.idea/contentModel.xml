@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10848892\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10848892\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Project1.2124996369.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10848892\Documents\1610Spring2020_Annika\Project1" t="IncludeRecursive">
+    <e p="C:\Users\Annika\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Annika\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Project1.-1600878717.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Annika\Documents\gitRepo\1610Spring2020_Annika\Project1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -14,11 +14,13 @@
           <e p="CubeMove.cs" t="Include" />
           <e p="DataTypes" t="Include">
             <e p="Collectable.cs" t="Include" />
+            <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="StringData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="EnumsSwitches.cs" t="Include" />
           <e p="FollowCursor.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
