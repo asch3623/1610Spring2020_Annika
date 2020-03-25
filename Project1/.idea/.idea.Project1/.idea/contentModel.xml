@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="NavAgentBehavior.cs" t="Include" />
+          </e>
           <e p="CameraController.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraRTS.cs" t="Include" />

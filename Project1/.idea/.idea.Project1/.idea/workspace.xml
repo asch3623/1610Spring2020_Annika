@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectableList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +139,8 @@
       <workItem from="1583341969815" duration="3487000" />
       <workItem from="1583471426656" duration="392000" />
       <workItem from="1583942913651" duration="3837000" />
-      <workItem from="1584980791090" duration="2239000" />
+      <workItem from="1584980791090" duration="2931000" />
+      <workItem from="1585154725583" duration="1818000" />
     </task>
     <servers />
   </component>
