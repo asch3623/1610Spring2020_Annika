@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +63,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" />
       </list>
     </option>
   </component>
@@ -141,6 +143,7 @@
       <workItem from="1583942913651" duration="3837000" />
       <workItem from="1584980791090" duration="2931000" />
       <workItem from="1585154725583" duration="1820000" />
+      <workItem from="1585368660785" duration="304000" />
     </task>
     <servers />
   </component>
@@ -178,6 +181,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" initialLine="21">
+            <startOffsets>
+              <option value="398" />
+            </startOffsets>
+            <endOffsets>
+              <option value="399" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

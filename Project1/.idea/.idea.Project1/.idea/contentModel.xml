@@ -41,6 +41,7 @@
           <e p="SpriteController.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
+          <e p="weaponsEnum.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
