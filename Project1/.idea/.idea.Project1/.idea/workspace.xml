@@ -144,6 +144,7 @@
       <workItem from="1584980791090" duration="2931000" />
       <workItem from="1585154725583" duration="1820000" />
       <workItem from="1585368660785" duration="304000" />
+      <workItem from="1585543785163" duration="506000" />
     </task>
     <servers />
   </component>
@@ -181,19 +182,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs</url>
-          <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" initialLine="21">
-            <startOffsets>
-              <option value="398" />
-            </startOffsets>
-            <endOffsets>
-              <option value="399" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
