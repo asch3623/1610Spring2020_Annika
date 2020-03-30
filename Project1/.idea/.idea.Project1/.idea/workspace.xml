@@ -27,7 +27,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -64,6 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -145,6 +149,7 @@
       <workItem from="1585154725583" duration="1820000" />
       <workItem from="1585368660785" duration="304000" />
       <workItem from="1585543785163" duration="575000" />
+      <workItem from="1585580879489" duration="4113000" />
     </task>
     <servers />
   </component>
@@ -169,10 +174,10 @@
   <component name="WindowStateProjectService">
     <state x="691" y="243" key="RiderGenerateDialog" timestamp="1584981070829" />
     <state x="691" y="243" key="RiderGenerateDialog/1920.1080" timestamp="1584981070831" />
-    <state x="445" y="161" key="SettingsEditor" timestamp="1584981073369">
+    <state x="445" y="161" key="SettingsEditor" timestamp="1585581313277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="445" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584981073369" />
+    <state x="445" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585581313277" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" timestamp="1584981070831" />
   </component>
   <component name="XDebuggerManager">
