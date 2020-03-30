@@ -1,16 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SpriteMove : MonoBehaviour
 {
+    // code from Kyle Suchar https://www.youtube.com/watch?v=L6Q6VHueWnU
     public float speed = 6f;
+    public bool isGrounded = false;
 
     void Start()
     {
      
     }
 
+    // code from Kyle Suchar https://www.youtube.com/watch?v=L6Q6VHueWnU
     void Update()
     {
         JumpAction();
@@ -19,7 +20,7 @@ public class SpriteMove : MonoBehaviour
 
          void JumpAction()
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") && isGrounded == true)
             {
                 gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
             }

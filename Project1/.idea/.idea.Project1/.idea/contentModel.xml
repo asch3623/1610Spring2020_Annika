@@ -26,6 +26,7 @@
           </e>
           <e p="EnumsSwitches.cs" t="Include" />
           <e p="FollowCursor.cs" t="Include" />
+          <e p="GroundCheck.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
           <e p="KillScript.cs" t="Include" />

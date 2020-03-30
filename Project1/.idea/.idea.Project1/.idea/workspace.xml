@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteMove.cs" />
       </list>
     </option>
@@ -153,7 +155,7 @@
       <workItem from="1585154725583" duration="1820000" />
       <workItem from="1585368660785" duration="304000" />
       <workItem from="1585543785163" duration="575000" />
-      <workItem from="1585580879489" duration="6875000" />
+      <workItem from="1585580879489" duration="7695000" />
     </task>
     <servers />
   </component>
