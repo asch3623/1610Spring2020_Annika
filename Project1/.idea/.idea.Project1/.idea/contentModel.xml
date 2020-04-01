@@ -10,6 +10,7 @@
           <e p="AI" t="Include">
             <e p="NavAgentBehavior.cs" t="Include" />
           </e>
+          <e p="AnotherCoroutine.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraRTS.cs" t="Include" />
@@ -26,7 +27,6 @@
           </e>
           <e p="EnumsSwitches.cs" t="Include" />
           <e p="FollowCursor.cs" t="Include" />
-          <e p="GroundCheck.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
           <e p="KillScript.cs" t="Include" />

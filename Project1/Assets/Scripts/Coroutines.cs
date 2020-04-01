@@ -10,10 +10,12 @@ public class Coroutines : MonoBehaviour
     public string message = "GO";
     public IntData numberData;
 
-    public UnityEvent repeatEvent, startEvent, endEvent;
-        
-    IEnumerator Start()
+    public UnityEvent repeatEvent, startEvent, endEvent, postEndEvent;
+
+    private WaitForSeconds waitObj;
+   private IEnumerator Start()
     {
+        waitObj = new WaitForSeconds(seconds);
         startEvent.Invoke();
         
         while (counter > 0)
@@ -23,8 +25,10 @@ public class Coroutines : MonoBehaviour
             repeatEvent.Invoke();
             counter--;
         }
-        yield return new WaitForSeconds(seconds);
+        yield return waitObj;
         endEvent.Invoke();
+        yield return waitObj;
+        postEndEvent.Invoke();
     }
 
     
