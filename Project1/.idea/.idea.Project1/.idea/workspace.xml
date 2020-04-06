@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectableList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" />
@@ -77,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" />
       </list>
     </option>
   </component>
@@ -159,7 +160,8 @@
       <workItem from="1585368660785" duration="304000" />
       <workItem from="1585543785163" duration="575000" />
       <workItem from="1585580879489" duration="7695000" />
-      <workItem from="1585757103661" duration="3592000" />
+      <workItem from="1585757103661" duration="4392000" />
+      <workItem from="1586189217777" duration="583000" />
     </task>
     <servers />
   </component>

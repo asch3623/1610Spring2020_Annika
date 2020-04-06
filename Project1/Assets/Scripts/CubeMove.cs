@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -12,6 +13,8 @@ public class CubeMove : MonoBehaviour
     public int jumpCountMax = 2;
     public int jumpCount;
     internal static Vector3 objPos;
+
+    public UnityEvent jumpEvent;
 
     void Start()
     {
@@ -34,6 +37,7 @@ public class CubeMove : MonoBehaviour
         //double jump
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
+            jumpEvent.Invoke();
             positionDirection.y = jumpForce;
             jumpCount++;
         }
