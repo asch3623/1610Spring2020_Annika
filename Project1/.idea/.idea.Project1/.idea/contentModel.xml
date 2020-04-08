@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="NavAgentBehavior.cs" t="Include" />
+            <e p="PatrolandFollow.cs" t="Include" />
           </e>
           <e p="AnotherCoroutine.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
@@ -26,6 +27,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="EnumsSwitches.cs" t="Include" />
+          <e p="FlipScript.cs" t="Include" />
           <e p="FollowCursor.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />

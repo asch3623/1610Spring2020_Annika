@@ -18,6 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectableList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,8 +78,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" />
       </list>
     </option>
   </component>
@@ -162,7 +166,7 @@
       <workItem from="1585580879489" duration="7695000" />
       <workItem from="1585757103661" duration="4392000" />
       <workItem from="1586189217777" duration="1217000" />
-      <workItem from="1586361616366" duration="578000" />
+      <workItem from="1586361616366" duration="2461000" />
     </task>
     <servers />
   </component>
