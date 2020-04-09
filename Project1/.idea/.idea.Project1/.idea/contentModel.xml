@@ -14,10 +14,10 @@
           <e p="AnotherCoroutine.cs" t="Include" />
           <e p="CameraController.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="CameraRig.cs" t="Include" />
           <e p="CameraRTS.cs" t="Include" />
           <e p="CollectableList.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
-          <e p="CubeMove.cs" t="Include" />
           <e p="DataTypes" t="Include">
             <e p="Collectable.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
@@ -36,6 +36,11 @@
           <e p="ListsAndLoops.cs" t="Include" />
           <e p="MonoBehaviors.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
+          <e p="Move" t="Include">
+            <e p="CubeMove.cs" t="Include" />
+            <e p="SphereMove.cs" t="Include" />
+            <e p="SpriteMove.cs" t="Include" />
+          </e>
           <e p="NewClass.cs" t="Include" />
           <e p="NewScript.cs" t="Include" />
           <e p="Practice.cs" t="Include" />
@@ -43,7 +48,6 @@
           <e p="RigidBodyForces.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
-          <e p="SpriteMove.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />

@@ -14,8 +14,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,10 +27,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -82,6 +83,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -166,7 +169,7 @@
       <workItem from="1585580879489" duration="7695000" />
       <workItem from="1585757103661" duration="4392000" />
       <workItem from="1586189217777" duration="1217000" />
-      <workItem from="1586361616366" duration="2461000" />
+      <workItem from="1586361616366" duration="5034000" />
     </task>
     <servers />
   </component>
@@ -191,10 +194,10 @@
   <component name="WindowStateProjectService">
     <state x="691" y="243" key="RiderGenerateDialog" timestamp="1584981070829" />
     <state x="691" y="243" key="RiderGenerateDialog/1920.1080" timestamp="1584981070831" />
-    <state x="445" y="161" key="SettingsEditor" timestamp="1585581313277">
+    <state x="809" y="165" key="SettingsEditor" timestamp="1586368444380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="445" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585581313277" />
+    <state x="809" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586368444380" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" timestamp="1584981070831" />
   </component>
   <component name="XDebuggerManager">
