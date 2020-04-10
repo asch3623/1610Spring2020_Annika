@@ -1194,6 +1194,11 @@ MonoBehaviour:
   jumpForce: 30
   jumpCountMax: 2
   jumpCount: 0
+  jumpEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1309150335
 MonoBehaviour:
   m_ObjectHideFlags: 0
