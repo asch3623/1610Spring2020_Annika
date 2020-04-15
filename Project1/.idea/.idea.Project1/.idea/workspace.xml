@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/SpriteMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
@@ -170,6 +171,8 @@
       <workItem from="1585757103661" duration="4392000" />
       <workItem from="1586189217777" duration="1217000" />
       <workItem from="1586361616366" duration="5716000" />
+      <workItem from="1586794122682" duration="555000" />
+      <workItem from="1586926502811" duration="578000" />
     </task>
     <servers />
   </component>
