@@ -47,6 +47,7 @@
           <e p="RandomRangeScript.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
           <e p="Score.cs" t="Include" />
+          <e p="ShooterScript.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />

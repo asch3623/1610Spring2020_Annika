@@ -36,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShooterScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShooterScript.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +174,7 @@
       <workItem from="1586189217777" duration="1217000" />
       <workItem from="1586361616366" duration="5716000" />
       <workItem from="1586794122682" duration="555000" />
-      <workItem from="1586926502811" duration="578000" />
+      <workItem from="1586926502811" duration="1030000" />
     </task>
     <servers />
   </component>
