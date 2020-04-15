@@ -50,6 +50,7 @@
           <e p="ShooterScript.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
+          <e p="TransformBehavior.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
           <e p="weaponsEnum.cs" t="Include" />

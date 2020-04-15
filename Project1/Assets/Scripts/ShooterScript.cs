@@ -26,7 +26,7 @@ public class ShooterScript : MonoBehaviour
 
     public void shootBullet()
     {
-        GameObject laser = Instantiate(bulletPreFab) as GameObject;
+        GameObject laser = Instantiate(bullet) as GameObject;
         laser.transform.position = player.transform.position;
     }
 }

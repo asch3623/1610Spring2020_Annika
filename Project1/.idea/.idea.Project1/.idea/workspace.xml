@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/SpriteMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +89,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/SphereMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShooterScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehvior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
       </list>
     </option>
   </component>
@@ -174,7 +178,8 @@
       <workItem from="1586189217777" duration="1217000" />
       <workItem from="1586361616366" duration="5716000" />
       <workItem from="1586794122682" duration="555000" />
-      <workItem from="1586926502811" duration="1030000" />
+      <workItem from="1586926502811" duration="1239000" />
+      <workItem from="1586966671829" duration="2209000" />
     </task>
     <servers />
   </component>
