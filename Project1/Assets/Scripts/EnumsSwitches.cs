@@ -45,7 +45,7 @@ public UnityEvent idlingEvent, runningEvent, jumpingEvent, walkingEvent;
 			break;
 		case PlayerStates.Running:
 			runningEvent.Invoke();
-			break;
+			break;ps
 		case PlayerStates.Jumping:
 			jumpingEvent.Invoke();
 			break;
