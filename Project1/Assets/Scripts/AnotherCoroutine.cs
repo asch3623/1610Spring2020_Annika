@@ -1,23 +1,34 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AnotherCoroutine : MonoBehaviour
 {
-    private WaitForFixedUpdate waitObj;
-    public bool canRun = true;
-    
-    void Start()
+    public float seconds = 1f;
+    private WaitForSeconds waitObj;
+    public bool canRun { get; set; } = true;
+
+    public UnityEvent repeatEvent;
+
+    private void Awake()
     {
-        waitObj = new WaitForFixedUpdate();
+        waitObj = new WaitForSeconds(seconds);
+    }
+
+    public void Restart()
+    {
         StartCoroutine(OnStartCoroutine());
     }
 
     public IEnumerator OnStartCoroutine()
     {
+        canRun = true;
         while (canRun)
         {
+            repeatEvent.Invoke();
             yield return waitObj;
-            print("repeating");
+            
         }
     }
     

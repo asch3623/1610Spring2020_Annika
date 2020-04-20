@@ -33,6 +33,7 @@
           <e p="ForEachLoop.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />
+          <e p="Instancer.cs" t="Include" />
           <e p="KillScript.cs" t="Include" />
           <e p="LightScript.cs" t="Include" />
           <e p="ListsAndLoops.cs" t="Include" />
