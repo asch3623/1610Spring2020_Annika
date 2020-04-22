@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/CubeMoveHorizontal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -21,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
@@ -97,6 +99,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move/CubeMoveHorizontal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" />
       </list>
     </option>
   </component>
@@ -187,7 +191,8 @@
       <workItem from="1586966671829" duration="2961000" />
       <workItem from="1587187239598" duration="351000" />
       <workItem from="1587272015710" duration="289000" />
-      <workItem from="1587398788887" duration="1111000" />
+      <workItem from="1587398788887" duration="1187000" />
+      <workItem from="1587519699122" duration="4487000" />
     </task>
     <servers />
   </component>
@@ -217,6 +222,10 @@
     </state>
     <state x="809" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586368444380" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" timestamp="1584981070831" />
+    <state x="1209" y="272" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587524047092">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1209" y="272" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587524047092" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,6 +234,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" initialLine="21">
+            <startOffsets>
+              <option value="525" />
+            </startOffsets>
+            <endOffsets>
+              <option value="558" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
