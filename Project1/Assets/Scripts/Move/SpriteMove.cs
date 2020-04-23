@@ -9,10 +9,10 @@ public class SpriteMove : MonoBehaviour
     private float speed = 10f;
     private Transform player;
     private Animator anim;
-
-    public bool isGrounded;
+    
+    
     public float jumpPower;
-    public LayerMask ground;
+   
     public BoolData collisionCheck;
     void Awake()
     {
@@ -24,9 +24,7 @@ public class SpriteMove : MonoBehaviour
     //code help from https://www.youtube.com/watch?v=z3zQuLhnqGE
     void Update()
     {
-
-       isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f),
-            new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), ground);
+        
         
         float moveInput = Input.GetAxisRaw("Horizontal");
         rb2d.velocity = new Vector2(moveInput * speed, rb2d.velocity.y);
@@ -35,19 +33,11 @@ public class SpriteMove : MonoBehaviour
         
         
 //jump
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && collisionCheck == true)
         {
             rb2d.AddForce(Vector2.up*jumpPower, ForceMode2D.Impulse);
         }
-
-        if (isGrounded)
-        {
-            collisionCheck.value = true;
-        }
-        else
-        {
-            collisionCheck.value = false;
-        }
+        
         
         
 //animation        

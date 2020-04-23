@@ -4,37 +4,74 @@ using UnityEngine;
 public class GravityChangers : MonoBehaviour
 {
     private SpriteRenderer mysprite;
-    public IntData collisionCounter;
+    public BoolData isGrounded;
+    private Transform groundCollider;
+
+    public bool isFlipped;
+
+    private Transform spriteTrans;
     void Start()
     {
         mysprite = GetComponent<SpriteRenderer>();
+        spriteTrans = GetComponent<Transform>();
+        groundCollider = GetComponentInChildren<Transform>();
     }
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        //flip sprite
+        if (isFlipped == false)
         {
-            mysprite.flipX = false;
+             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+             {
+                        mysprite.flipX = false;
+                        return;
+             } 
+             if((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isFlipped == false)
+             {
+                        mysprite.flipX = true;
+                        return;
+             }
         }
+
+        if (isFlipped)
+        {
+             if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && isFlipped)
+             {
+                        mysprite.flipX = true;
+                        return;
+             }
+             if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isFlipped )
+             {
+                        mysprite.flipX = false;
+                        return;
+             }
+        }
+       
         
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            mysprite.flipX = true;
-        }
         
-        if ((Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow)) && collisionCounter.value == 1)
+        //flip gravity
+        if ( isGrounded == true)
         {
-            mysprite.flipY = true;
-            var temp = Physics2D.gravity;
-            temp.y = 19.81f;
-            Physics2D.gravity = temp;
-        }
-        if ((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && collisionCounter.value == 1)
-        {
-            mysprite.flipY = false;
-            var temp = Physics2D.gravity;
-            temp.y = -19.81f;
-            Physics2D.gravity = temp;
+            if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+               groundCollider.rotation = Quaternion.Euler(0, 0, 0);
+                           var temp = Physics2D.gravity;
+                           temp.y = -19.81f;
+                           Physics2D.gravity = temp;
+                           isFlipped = false;
+                           return;
+            }
+            
+            if (Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                groundCollider.rotation = Quaternion.Euler(0, 0, -180);
+                            var temp = Physics2D.gravity;
+                            temp.y = 19.81f;
+                            Physics2D.gravity = temp;
+                            isFlipped = true;
+            }
+            
         }
     }
     }

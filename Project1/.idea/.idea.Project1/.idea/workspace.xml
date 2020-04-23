@@ -101,11 +101,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/CubeMoveHorizontal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KillScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/SpriteMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionDetect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/KillScript.cs" />
       </list>
     </option>
   </component>
@@ -198,7 +198,7 @@
       <workItem from="1587272015710" duration="289000" />
       <workItem from="1587398788887" duration="1187000" />
       <workItem from="1587519699122" duration="4487000" />
-      <workItem from="1587669301442" duration="9316000" />
+      <workItem from="1587669301442" duration="11599000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CollisionDetect : MonoBehaviour
 {
-   public BoolData groundCheck;
+   public BoolData collisionCheck;
    public LayerMask ground;
    public bool isGrounded;
 
@@ -18,10 +18,12 @@ public class CollisionDetect : MonoBehaviour
       if (isGrounded)
       {
          collisionCheck.value = true;
+        
       }
       else
       {
          collisionCheck.value = false;
+        
       }
    }
 }
