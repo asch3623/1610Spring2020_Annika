@@ -51,7 +51,7 @@ public class GravityChangers : MonoBehaviour
         
         
         //flip gravity
-        if ( isGrounded == true)
+        if ( isGrounded.value == true)
         {
             if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {

@@ -33,7 +33,7 @@ public class SpriteMove : MonoBehaviour
         
         
 //jump
-        if (Input.GetKeyDown(KeyCode.Space) && collisionCheck == true)
+        if (Input.GetKeyDown(KeyCode.Space) && collisionCheck.value)
         {
             rb2d.AddForce(Vector2.up*jumpPower, ForceMode2D.Impulse);
         }

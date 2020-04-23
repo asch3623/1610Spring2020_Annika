@@ -44,8 +44,6 @@
           <e p="MouseEvents.cs" t="Include" />
           <e p="Move" t="Include">
             <e p="CubeMove.cs" t="Include" />
-            <e p="CubeMoveHorizontal.cs" t="Include" />
-            <e p="GravityController.cs" t="Include" />
             <e p="SphereMove.cs" t="Include" />
             <e p="SpriteMove.cs" t="Include" />
           </e>
