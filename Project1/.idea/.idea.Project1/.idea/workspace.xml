@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -101,6 +102,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/CubeMoveHorizontal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move/SpriteMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" />
       </list>
     </option>
   </component>
@@ -193,6 +196,7 @@
       <workItem from="1587272015710" duration="289000" />
       <workItem from="1587398788887" duration="1187000" />
       <workItem from="1587519699122" duration="4487000" />
+      <workItem from="1587669301442" duration="4221000" />
     </task>
     <servers />
   </component>
@@ -234,19 +238,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" initialLine="21">
-            <startOffsets>
-              <option value="525" />
-            </startOffsets>
-            <endOffsets>
-              <option value="558" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

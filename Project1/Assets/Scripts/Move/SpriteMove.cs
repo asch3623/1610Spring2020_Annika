@@ -1,30 +1,34 @@
 ﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+
 public class SpriteMove : MonoBehaviour
 {
-    // code from Kyle Suchar https://www.youtube.com/watch?v=L6Q6VHueWnU
-    public float speed = 6f;
-    public bool isGrounded = false;
-
-    void Start()
+    private Rigidbody2D rb2d;
+    private float speed = 20f;
+    private float maxVelocity = 5f;
+    void Awake()
     {
-     
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
-    // code from Kyle Suchar https://www.youtube.com/watch?v=L6Q6VHueWnU
+    //code help from https://www.youtube.com/watch?v=z3zQuLhnqGE
     void Update()
     {
-        JumpAction();
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * speed;
+        var xdiff = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+       
 
-         void JumpAction()
+        if (Mathf.Abs(rb2d.velocity.x) > maxVelocity)
         {
-            if (Input.GetButtonDown("Jump") && isGrounded == true)
-            {
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
-            }
+            var temp = rb2d.velocity;
+            temp.x = maxVelocity * Mathf.Sign(xdiff);
+            rb2d.velocity = temp;
+            return;
         }
+        rb2d.AddForce(Vector2.right*xdiff, ForceMode2D.Impulse);
     }
+    
+    
 }
+
 

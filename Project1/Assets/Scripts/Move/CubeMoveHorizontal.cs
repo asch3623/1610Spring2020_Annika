@@ -11,6 +11,7 @@ public class CubeMoveHorizontal : MonoBehaviour
     public float jumpForce = 30f;
     public int jumpCountMax = 2;
     public int jumpCount;
+    public float gravity = -3f;
 
     public UnityEvent jumpEvent;
 
@@ -23,12 +24,13 @@ public class CubeMoveHorizontal : MonoBehaviour
     {
         controller.Move(positionDirection * Time.deltaTime);
         positionDirection.x = Input.GetAxis("Horizontal")*speed;
+        positionDirection.y = gravity;
        
 
         if (controller.isGrounded)
         {
             jumpCount = 0;
-            positionDirection.y = 0;
+            positionDirection.y = positionDirection.y;
         }
         
         //double jump
@@ -43,7 +45,7 @@ public class CubeMoveHorizontal : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             print("going Up");
-            Physics.gravity = new Vector3(0f,9.81f,0f);
+            positionDirection.y = 3f;
             jumpForce = -30f;
 
         }
@@ -51,7 +53,7 @@ public class CubeMoveHorizontal : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             print("going down");
-            Physics.gravity = new Vector3(0f,-9.81f,0f);
+            positionDirection.y = gravity;
 
             jumpForce = 30f;
         }
