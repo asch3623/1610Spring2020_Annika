@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using DataTypes;
 using UnityEngine;
 [RequireComponent(typeof(Transform))]
