@@ -664,7 +664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6213f633b1598d64a8a9d4bf6fdb4b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpPower: 8
+  jumpPower: 16
   collisionCheck: {fileID: 11400000, guid: dbf286f3af73b034b897060170f702fc, type: 2}
 --- !u!50 &1671148498
 Rigidbody2D:

@@ -56,20 +56,41 @@ public class GravityChangers : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                groundCollider.rotation = Quaternion.Euler(0, 0, 0);
+               
                            var temp = Physics2D.gravity;
                            temp.y = -19.81f;
                            Physics2D.gravity = temp;
                            isFlipped = false;
+                           if (mysprite.flipX == false)
+                           {
+                               mysprite.flipX = true;
+                               return;
+                           }
+                           if (mysprite.flipX)
+                           {
+                               mysprite.flipX = false;
+                               return;
+                           }      
+                           
                            return;
             }
             
             if (Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
             {
                 groundCollider.rotation = Quaternion.Euler(0, 0, -180);
-                            var temp = Physics2D.gravity;
+                var temp = Physics2D.gravity;
                             temp.y = 19.81f;
                             Physics2D.gravity = temp;
                             isFlipped = true;
+                            if (mysprite.flipX == false)
+                            {
+                                mysprite.flipX = true;
+                                return;
+                            }
+                            if (mysprite.flipX)
+                            {
+                                mysprite.flipX = false;
+                            }      
             }
             
         }

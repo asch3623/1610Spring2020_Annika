@@ -6,7 +6,7 @@ using UnityEngine;
 public class SpriteMove : MonoBehaviour
 {
     private Rigidbody2D rb2d;
-    private float speed = 10f;
+    private float speed = 15f;
     private Transform player;
     private Animator anim;
     
