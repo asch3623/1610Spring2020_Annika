@@ -7,7 +7,7 @@ public class GravityChangers : MonoBehaviour
     public BoolData isGrounded;
     private Transform groundCollider;
 
-    public bool isFlipped;
+    public BoolData isFlipped;
 
     private Transform spriteTrans;
     void Start()
@@ -15,33 +15,34 @@ public class GravityChangers : MonoBehaviour
         mysprite = GetComponent<SpriteRenderer>();
         spriteTrans = GetComponent<Transform>();
         groundCollider = GetComponentInChildren<Transform>();
+        isFlipped.value = false;
     }
     
     void Update()
     {
         //flip sprite
-        if (isFlipped == false)
+        if (isFlipped.value == false)
         {
              if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
              {
                         mysprite.flipX = false;
                         return;
              } 
-             if((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isFlipped == false)
+             if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
              {
                         mysprite.flipX = true;
                         return;
              }
         }
 
-        if (isFlipped)
+        if (isFlipped.value)
         {
-             if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && isFlipped)
+             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
              {
                         mysprite.flipX = true;
                         return;
              }
-             if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isFlipped )
+             if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
              {
                         mysprite.flipX = false;
                         return;
@@ -60,7 +61,7 @@ public class GravityChangers : MonoBehaviour
                            var temp = Physics2D.gravity;
                            temp.y = -19.81f;
                            Physics2D.gravity = temp;
-                           isFlipped = false;
+                           isFlipped.value = false;
                            if (mysprite.flipX == false)
                            {
                                mysprite.flipX = true;
@@ -81,7 +82,7 @@ public class GravityChangers : MonoBehaviour
                 var temp = Physics2D.gravity;
                             temp.y = 19.81f;
                             Physics2D.gravity = temp;
-                            isFlipped = true;
+                            isFlipped.value = true;
                             if (mysprite.flipX == false)
                             {
                                 mysprite.flipX = true;

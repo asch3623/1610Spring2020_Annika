@@ -14,6 +14,7 @@ public class SpriteMove : MonoBehaviour
     public float jumpPower;
    
     public BoolData collisionCheck;
+    public BoolData isFlipped;
     void Awake()
     {
         anim = GetComponentInChildren<Animator>();
@@ -35,9 +36,23 @@ public class SpriteMove : MonoBehaviour
 //jump
         if (Input.GetKeyDown(KeyCode.Space) && collisionCheck.value)
         {
-            rb2d.AddForce(Vector2.up*jumpPower, ForceMode2D.Impulse);
+            if (isFlipped.value == false)
+            {
+                rb2d.velocity = Vector2.up * jumpPower;
+            }
+            else
+            {
+                rb2d.velocity = Vector2.up * -jumpPower;
+            }
+            
+            anim.SetTrigger("TakeOff");
+        } else{
+        anim.SetBool("isJumping", true);
         }
-        
+        if (collisionCheck.value == true)
+        {
+         anim.SetBool("isJumping", false);
+        }
         
         
 //animation        
