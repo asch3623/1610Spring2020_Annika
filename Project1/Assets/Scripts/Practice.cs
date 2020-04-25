@@ -1,32 +1,14 @@
 ﻿using UnityEngine;
 
-public class Practice : MonoBehaviour {
+public class Practice : MonoBehaviour
+{
+[SerializeField]
+	private Transform damagePopUp;
+	 void Start()
+	 {
+	Transform damagePopupTransform = Instantiate(damagePopUp, Vector3.zero, Quaternion.identity);
+	DamagePopUp damagePopUp = damagePopupTransform.GetComponent<DamagePopUp>();
+	damagePopUp.SetUp(-5);
 
-	public string myName = "Annika";
-
-		double age = 10;
-	void Start () {
-
-		age = (float)10;
-
-		var x = 10 + 4;
-
-		Debug.Log(myName + " " + "Schwartz");
-		print(x);
-		print(age);
-
-	}
-	
-
-	void Update () {
-
-		if (myName == "Annika")
-		{
-			print("this is true");
-		}
-		else
-		{
-			print("this isn't true.");
-		}
-	}
+	 }
 }

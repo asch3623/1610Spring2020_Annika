@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadeIn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Practice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraRig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectableList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamagePopUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnumsSwitches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/RigidBodyForces.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LightScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ForEachLoop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ElseStatementReview.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnotherCoroutine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/CubeMoveHorizontal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move/GravityController.cs" />
@@ -106,6 +105,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FadeOut.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FadeIn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanisher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Practice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DamagePopUp.cs" />
       </list>
     </option>
   </component>
@@ -201,6 +203,7 @@
       <workItem from="1587669301442" duration="14913000" />
       <workItem from="1587750070520" duration="3827000" />
       <workItem from="1587755686602" duration="6481000" />
+      <workItem from="1587775958210" duration="1700000" />
     </task>
     <servers />
   </component>

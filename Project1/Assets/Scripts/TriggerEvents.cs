@@ -1,6 +1,4 @@
-﻿using System;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class TriggerEvents : MonoBehaviour
@@ -8,11 +6,11 @@ public class TriggerEvents : MonoBehaviour
     public UnityEvent triggerEnterEvent;
     public UnityEvent triggerExitEvent;
     
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
        triggerEnterEvent.Invoke();
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         triggerExitEvent.Invoke();
     }
