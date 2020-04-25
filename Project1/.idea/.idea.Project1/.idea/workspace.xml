@@ -49,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShooterScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCursor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Assets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,8 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RandomRangeScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewScript.cs" />
@@ -106,8 +105,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FadeIn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlatformVanisher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Practice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Assets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move/CubeMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamagePopUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Practice.cs" />
       </list>
     </option>
   </component>
@@ -203,7 +204,7 @@
       <workItem from="1587669301442" duration="14913000" />
       <workItem from="1587750070520" duration="3827000" />
       <workItem from="1587755686602" duration="6481000" />
-      <workItem from="1587775958210" duration="1700000" />
+      <workItem from="1587775958210" duration="8969000" />
     </task>
     <servers />
   </component>

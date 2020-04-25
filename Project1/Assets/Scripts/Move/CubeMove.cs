@@ -12,7 +12,6 @@ public class CubeMove : MonoBehaviour
     public float jumpForce = 30f;
     public int jumpCountMax = 2;
     public int jumpCount;
-    internal static Vector3 objPos;
 
     public UnityEvent jumpEvent;
 

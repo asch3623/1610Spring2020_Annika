@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public class Assets : MonoBehaviour
 {
@@ -12,4 +13,6 @@ public class Assets : MonoBehaviour
                 return _i;
         }
     }
+
+    public Transform DamagePopUp;
 }
