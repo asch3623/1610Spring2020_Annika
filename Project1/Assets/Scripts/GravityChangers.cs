@@ -23,7 +23,10 @@ public class GravityChangers : MonoBehaviour
         //flip sprite
         if (isFlipped.value == false)
         {
-             if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            var temp = Physics2D.gravity;
+            temp.y = -19.81f;
+            Physics2D.gravity = temp;
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
              {
                         mysprite.flipX = false;
                         return;
@@ -52,15 +55,15 @@ public class GravityChangers : MonoBehaviour
         
         
         //flip gravity
-        if ( isGrounded.value == true)
+        if ( isGrounded.value)
         {
             if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
             {
                groundCollider.rotation = Quaternion.Euler(0, 0, 0);
                
-                           var temp = Physics2D.gravity;
-                           temp.y = -19.81f;
-                           Physics2D.gravity = temp;
+               var temp = Physics2D.gravity;
+               temp.y = -19.81f;
+               Physics2D.gravity = temp;
                            isFlipped.value = false;
                            if (mysprite.flipX == false)
                            {

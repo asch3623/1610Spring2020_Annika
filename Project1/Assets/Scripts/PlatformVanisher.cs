@@ -2,7 +2,6 @@
 using DataTypes;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Experimental.VFX;
 
 public class PlatformVanisher : MonoBehaviour
 {

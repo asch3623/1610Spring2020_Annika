@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Platform
+  - Enemy
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3032584945
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Main
+    uniqueID: 3892270927
+    locked: 0
+  - name: Character
+    uniqueID: 1351137869
     locked: 0

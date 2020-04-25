@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 
 public class DamagePopUp : MonoBehaviour
@@ -16,17 +17,20 @@ public class DamagePopUp : MonoBehaviour
     void Awake()
     {
         textMesh = transform.GetComponent<TextMeshPro>();
-        SetUp(-5);
+        SetUp();
     }
 
-    public void SetUp(int damageAmount)
+    public void SetUp()
     {
-        textMesh.SetText(damageAmount.ToString());
         textColor = textMesh.color;
         disappearTimer = TIMER_MAX;
         moveVector = new Vector3(1,1) * 30f;
     }
 
+    private void Start()
+    {
+        Destroy(gameObject, 3f);
+    }
 
     void Update()
     {
@@ -37,11 +41,6 @@ public class DamagePopUp : MonoBehaviour
             float disappearSpeed = 1f;
             textColor.a -= disappearSpeed * Time.deltaTime;
             textMesh.color = textColor;
-        }
-
-        if (textColor.a <= 0)
-        {
-            Destroy(textMesh);
         }
     }
     
