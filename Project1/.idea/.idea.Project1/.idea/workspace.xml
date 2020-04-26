@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ElseStatementReview.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/StringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move/CubeMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlatformVanisher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SummonText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/weaponsEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NewScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
@@ -71,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectableList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" />
@@ -110,6 +109,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GravityChangers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/KillScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ListsAndLoops.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyEnum.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SummonText.cs" />
       </list>
     </option>
   </component>
@@ -207,6 +209,7 @@
       <workItem from="1587755686602" duration="6481000" />
       <workItem from="1587775958210" duration="9626000" />
       <workItem from="1587832541303" duration="10732000" />
+      <workItem from="1587856083278" duration="8151000" />
     </task>
     <servers />
   </component>
@@ -240,6 +243,10 @@
     </state>
     <state x="809" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586368444380" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" timestamp="1584981070831" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587856718959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1587856718959" />
     <state x="1209" y="272" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587524047092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

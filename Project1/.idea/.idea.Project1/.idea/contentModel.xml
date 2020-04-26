@@ -32,6 +32,7 @@
           </e>
           <e p="DestroyOnTrigger.cs" t="Include" />
           <e p="ElseStatementReview.cs" t="Include" />
+          <e p="EnemyEnum.cs" t="Include" />
           <e p="EnumsSwitches.cs" t="Include" />
           <e p="FadeIn.cs" t="Include" />
           <e p="FadeOut.cs" t="Include" />
