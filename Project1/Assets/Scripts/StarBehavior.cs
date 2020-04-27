@@ -14,5 +14,9 @@ public class StarBehavior : MonoBehaviour
     void Update()
     {
         starText.text = "Stars: " + starCount.value.ToString() + "/4";
+        if (starCount.value == 4)
+        {
+            starText.text = "Now Head Back!";
+        }
     }
 }
