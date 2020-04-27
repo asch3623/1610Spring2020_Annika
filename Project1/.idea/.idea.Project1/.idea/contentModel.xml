@@ -48,6 +48,7 @@
           <e p="KillScript.cs" t="Include" />
           <e p="LightScript.cs" t="Include" />
           <e p="ListsAndLoops.cs" t="Include" />
+          <e p="MainMenuClose.cs" t="Include" />
           <e p="MonoBehaviors.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="Move" t="Include">

@@ -36,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SummonText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuClose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadeOut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataTypes/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShooterScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/StringData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoBehaviors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataTypes/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
@@ -114,9 +113,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/PatrolandFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArrayGround.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OpenDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuClose.cs" />
       </list>
     </option>
   </component>
@@ -215,7 +216,7 @@
       <workItem from="1587775958210" duration="9626000" />
       <workItem from="1587832541303" duration="10732000" />
       <workItem from="1587856083278" duration="8151000" />
-      <workItem from="1587941717997" duration="6431000" />
+      <workItem from="1587941717997" duration="7281000" />
     </task>
     <servers />
   </component>
