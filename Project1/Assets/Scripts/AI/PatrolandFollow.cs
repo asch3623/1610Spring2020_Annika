@@ -14,12 +14,14 @@ private Transform currentDestination;
 public List<Transform> patrolPoints;
 private int i;
 private bool canHunt;
+private SpriteRenderer spr;
 
 void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
         currentDestination = transform;
+        spr = GetComponentInChildren<SpriteRenderer>();
     }
 
 private void OnTriggerEnter(Collider other)
@@ -46,6 +48,8 @@ void Update()
     {
         agent.destination = patrolPoints[i].position;
         i = (i + 1) % patrolPoints.Count;
+
+
     }
 }
 

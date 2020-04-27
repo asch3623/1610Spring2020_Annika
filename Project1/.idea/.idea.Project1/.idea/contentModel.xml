@@ -18,6 +18,7 @@
           <e p="CameraRig.cs" t="Include" />
           <e p="CameraRTS.cs" t="Include" />
           <e p="CollectableList.cs" t="Include" />
+          <e p="CollectStar.cs" t="Include" />
           <e p="CollisionDetect.cs" t="Include" />
           <e p="Coroutines.cs" t="Include" />
           <e p="DamagePopUp.cs" t="Include" />
@@ -54,12 +55,15 @@
             <e p="SpriteMove.cs" t="Include" />
           </e>
           <e p="NewClass.cs" t="Include" />
+          <e p="OpenDoor.cs" t="Include" />
           <e p="PlatformVanisher.cs" t="Include" />
           <e p="RandomRangeScript.cs" t="Include" />
           <e p="RigidBodyForces.cs" t="Include" />
+          <e p="RotateBehavior.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="ShooterScript.cs" t="Include" />
           <e p="SpriteController.cs" t="Include" />
+          <e p="StarBehavior.cs" t="Include" />
           <e p="SummonText.cs" t="Include" />
           <e p="TextBehavior.cs" t="Include" />
           <e p="TransformBehavior.cs" t="Include" />

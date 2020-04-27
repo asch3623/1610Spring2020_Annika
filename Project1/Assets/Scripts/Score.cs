@@ -15,6 +15,6 @@ public class Score : MonoBehaviour
     }
     void Update()
     {
-        scoreText.text = score.value.ToString();
+        scoreText.text = "Lives: " + score.value.ToString();
     }
 }
