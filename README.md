@@ -1,7 +1,7 @@
 1610Spring2020_Annika
 
-This is my first repo
+Game is located under file assets > scenes > _MAIN_GAME_
 
-currently working on my first unity game.
+I've opened using Unity Hub, otherwise sometimes prefab references will randomly be gone.
 
-print("hello world");
+Unity is version 2018.3.5f1
